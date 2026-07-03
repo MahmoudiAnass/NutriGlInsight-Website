@@ -16,17 +16,19 @@ function isValidEmail(email: string) {
 }
 
 export function DeleteDataForm({ form, lang }: { form: FormDict; lang: string }) {
-  const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const [status, setStatus] = useState<"idle" | "success">("idle");
   const [errors, setErrors] = useState<FieldErrors>({});
 
-  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const formEl = event.currentTarget;
     const data = new FormData(formEl);
 
     const email = String(data.get("email") ?? "").trim();
     const confirm = data.get("confirm") === "on";
-    const honeypot = String(data.get("company") ?? "");
+    const name = String(data.get("name") ?? "").trim();
+    const supportId = String(data.get("supportId") ?? "").trim();
+    const reason = String(data.get("reason") ?? "").trim();
 
     const nextErrors: FieldErrors = {};
     if (!email) nextErrors.email = form.requiredError;
@@ -36,28 +38,30 @@ export function DeleteDataForm({ form, lang }: { form: FormDict; lang: string })
     setErrors(nextErrors);
     if (Object.keys(nextErrors).length > 0) return;
 
-    setStatus("submitting");
-    try {
-      const res = await fetch("/api/delete-request", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          name: String(data.get("name") ?? "").trim(),
-          email,
-          supportId: String(data.get("supportId") ?? "").trim(),
-          reason: String(data.get("reason") ?? "").trim(),
-          confirm,
-          company: honeypot,
-          locale: lang,
-        }),
-      });
+    const subject = encodeURIComponent("Data Deletion Request");
+    const body = encodeURIComponent(
+      [
+        "Data Deletion Request",
+        "",
+        `Full Name: ${name || "(not provided)"}`,
+        `Account Email: ${email}`,
+        `Support ID: ${supportId || "(not provided)"}`,
+        `Reason: ${reason || "(not provided)"}`,
+        "",
+        "I confirm I understand this permanently deletes my data and cannot be undone.",
+        "",
+        "---",
+        `Sent from nutriglinsight.com/delete-data (lang: ${lang})`,
+      ].join("\n"),
+    );
 
-      if (!res.ok) throw new Error("Request failed");
-      setStatus("success");
-      formEl.reset();
-    } catch {
-      setStatus("error");
-    }
+    window.open(
+      `mailto:contact@nutriglinsight.com?subject=${subject}&body=${body}`,
+      "_blank",
+      "noopener",
+    );
+    setStatus("success");
+    formEl.reset();
   }
 
   if (status === "success") {
@@ -78,12 +82,6 @@ export function DeleteDataForm({ form, lang }: { form: FormDict; lang: string })
   return (
     <form onSubmit={handleSubmit} noValidate className="card flex flex-col gap-5">
       <h3 className="font-display text-xl font-semibold">{form.title}</h3>
-
-      {/* Honeypot — hidden from users, catches bots */}
-      <div aria-hidden className="absolute left-[-9999px] h-0 w-0 overflow-hidden" tabIndex={-1}>
-        <label htmlFor="company">Company</label>
-        <input id="company" name="company" type="text" autoComplete="off" tabIndex={-1} />
-      </div>
 
       <div className="flex flex-col gap-2">
         <label htmlFor="name" className="text-sm font-medium">
@@ -179,14 +177,8 @@ export function DeleteDataForm({ form, lang }: { form: FormDict; lang: string })
         </p>
       ) : null}
 
-      {status === "error" ? (
-        <p className="rounded-xl border border-gl-high/40 bg-gl-high/5 px-4 py-3 text-sm text-gl-high">
-          {form.genericError}
-        </p>
-      ) : null}
-
-      <button type="submit" disabled={status === "submitting"} className="btn-primary w-full">
-        {status === "submitting" ? form.submitting : form.submit}
+      <button type="submit" className="btn-primary w-full">
+        {form.submit}
       </button>
     </form>
   );

@@ -337,8 +337,8 @@
       "emailError": "Introduce una dirección de correo válida.",
       "confirmError": "Debes confirmar antes de enviar.",
       "genericError": "Algo salió mal. Inténtalo de nuevo o escríbenos directamente.",
-      "successTitle": "Solicitud recibida",
-      "successBody": "Hemos recibido tu solicitud de eliminación y te lo confirmaremos por correo en un plazo de 30 días. Si no tienes noticias, escríbenos a contact@nutriglinsight.com.",
+      "successTitle": "Aplicación de correo abierta",
+      "successBody": "Tu solicitud de eliminación ha sido pre-rellenada en tu aplicación de correo. Envía el correo para completar la solicitud. Si la aplicación no se abrió, escríbenos directamente a contact@nutriglinsight.com.",
       "successAgain": "Enviar otra solicitud"
     },
     "altTitle": "¿Prefieres el correo?",

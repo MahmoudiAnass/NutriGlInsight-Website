@@ -337,8 +337,8 @@
       "emailError": "Please enter a valid email address.",
       "confirmError": "You must confirm before submitting.",
       "genericError": "Something went wrong. Please try again, or email us directly.",
-      "successTitle": "Request received",
-      "successBody": "We've received your deletion request and will confirm to your email within 30 days. If you don't hear back, email us at contact@nutriglinsight.com.",
+      "successTitle": "Email app opened",
+      "successBody": "Your deletion request has been pre-filled in your email app. Send the email to complete your request. If the app didn't open, email contact@nutriglinsight.com directly.",
       "successAgain": "Submit another request"
     },
     "altTitle": "Prefer email?",

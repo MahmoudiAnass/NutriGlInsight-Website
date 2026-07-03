@@ -337,8 +337,8 @@
       "emailError": "Veuillez saisir une adresse e-mail valide.",
       "confirmError": "Vous devez confirmer avant d'envoyer.",
       "genericError": "Une erreur est survenue. Réessayez ou écrivez-nous directement.",
-      "successTitle": "Demande reçue",
-      "successBody": "Nous avons reçu votre demande de suppression et vous confirmerons par e-mail sous 30 jours. Sans nouvelle de notre part, écrivez-nous à contact@nutriglinsight.com.",
+      "successTitle": "Application e-mail ouverte",
+      "successBody": "Votre demande de suppression a été pré-remplie dans votre application e-mail. Envoyez l'e-mail pour finaliser votre demande. Si l'application ne s'est pas ouverte, écrivez directement à contact@nutriglinsight.com.",
       "successAgain": "Envoyer une autre demande"
     },
     "altTitle": "Vous préférez l'e-mail ?",
