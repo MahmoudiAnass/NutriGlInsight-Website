@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>NutriGL Insight</title>
+    <script>
+      var supported = ["en", "ar", "fr", "es"];
+      var lang = (navigator.language || "en").slice(0, 2).toLowerCase();
+      var target = supported.indexOf(lang) !== -1 ? lang : "en";
+      window.location.replace("/" + target + "/");
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0;url=/en/" />
+    </noscript>
+  </head>
+  <body></body>
+</html>
