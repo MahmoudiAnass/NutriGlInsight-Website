@@ -16,13 +16,11 @@ const cy = 122;
 const r = 96;
 const circumference = Math.PI * r;
 
-// Needle target ~20% into the scale — a healthy "low" reading.
+// Reading marker at ~20% into the scale — a healthy "low" value.
 const value = 0.2;
-const angle = 180 - value * 180;
-const rad = (angle * Math.PI) / 180;
-const needleLen = r - 22;
-const needleX = cx + Math.cos(rad) * needleLen;
-const needleY = cy - Math.sin(rad) * needleLen;
+const markerAngle = ((180 - value * 180) * Math.PI) / 180;
+const markerX = cx + Math.cos(markerAngle) * r;
+const markerY = cy - Math.sin(markerAngle) * r;
 
 // Tick marks around the arc for an instrument feel.
 const ticks = Array.from({ length: 11 }, (_, i) => {
@@ -125,31 +123,29 @@ export function GLGauge({ labels }: { labels: GaugeLabels }) {
             style={{ filter: "drop-shadow(0 4px 10px rgba(52,199,89,0.25))" }}
           />
 
-          {/* Needle */}
-          <motion.line
-            x1={cx}
-            y1={cy}
-            x2={needleX}
-            y2={needleY}
-            stroke="rgb(var(--foreground))"
-            strokeWidth="4.5"
-            strokeLinecap="round"
-            initial={{ rotate: reduce ? 0 : -90 }}
-            whileInView={{ rotate: 0 }}
+          {/* Reading marker on the arc */}
+          <motion.circle
+            cx={markerX}
+            cy={markerY}
+            r="10"
+            fill="rgb(var(--card))"
+            stroke="#34C759"
+            strokeWidth="4"
+            initial={{ opacity: reduce ? 1 : 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: reduce ? 0 : 1.2, delay: 0.4, ease: "backOut" }}
-            style={{ originX: `${cx}px`, originY: `${cy}px` }}
+            transition={{ duration: reduce ? 0 : 0.4, delay: reduce ? 0 : 1.2 }}
+            style={{ filter: "drop-shadow(0 2px 5px rgba(0,0,0,0.2))" }}
           />
-          <circle cx={cx} cy={cy} r="10" fill="rgb(var(--foreground))" />
-          <circle cx={cx} cy={cy} r="4" fill="rgb(var(--card))" />
+          <circle cx={markerX} cy={markerY} r="3.5" fill="#34C759" />
         </svg>
 
         {/* Center readout */}
-        <div className="pointer-events-none absolute inset-x-0 top-[46%] flex -translate-y-1/2 flex-col items-center gap-1">
+        <div className="pointer-events-none absolute inset-x-0 top-[52%] flex -translate-y-1/2 flex-col items-center gap-1.5">
           <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-muted">
             {labels.label}
           </span>
-          <span className="tabnum font-display text-[44px] font-extrabold leading-none text-gl-low">
+          <span className="tabnum font-display text-[52px] font-extrabold leading-none text-gl-low">
             8
           </span>
           <span className="inline-flex items-center gap-1.5 rounded-full bg-gl-low/15 px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-wide text-gl-low">
