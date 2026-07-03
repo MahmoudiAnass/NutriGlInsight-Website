@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="NutriGL Insight">
+  <rect width="64" height="64" rx="16" fill="#F97316"/>
+  <path d="M33 50A18 18 0 0 1 30 16.5C44 13.5 47 12 51 6c2.5 5 5 10 5 20 0 14-12 24-23 24Z" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="scale(0.62) translate(9 9)"/>
+  <circle cx="24" cy="40" r="3.4" fill="#34C759"/>
+  <circle cx="34" cy="34" r="3.4" fill="#F59E0B"/>
+  <circle cx="44" cy="26" r="3.4" fill="#EF4444"/>
+  <path d="M24 40 34 34 44 26" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+</svg>

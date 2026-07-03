@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="NutriGL Insight — Smarter nutrition tracking, powered by glycemic load">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F7F8"/>
+      <stop offset="1" stop-color="#FFF3E9"/>
+    </linearGradient>
+    <linearGradient id="gl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34C759"/>
+      <stop offset="0.5" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g transform="translate(80 90)">
+    <rect x="0" y="0" width="56" height="56" rx="14" fill="#F97316"/>
+    <path d="M12 40c14 4 30-6 34-24-10 2-28 8-34 24Z" fill="#fff" opacity="0.95"/>
+    <text x="76" y="38" font-family="Segoe UI, system-ui, sans-serif" font-size="30" font-weight="700" fill="#1A1A2E">NutriGL <tspan fill="#F97316">Insight</tspan></text>
+  </g>
+  <text x="80" y="290" font-family="Segoe UI, system-ui, sans-serif" font-size="66" font-weight="800" fill="#1A1A2E">Smarter nutrition tracking,</text>
+  <text x="80" y="370" font-family="Segoe UI, system-ui, sans-serif" font-size="66" font-weight="800" fill="#F97316">powered by glycemic load</text>
+  <text x="80" y="440" font-family="Segoe UI, system-ui, sans-serif" font-size="30" fill="#4b5563">See not just how much you ate — but what it does to your body.</text>
+  <g transform="translate(80 500)">
+    <rect x="0" y="0" width="640" height="18" rx="9" fill="url(#gl)"/>
+    <circle cx="150" cy="9" r="16" fill="#fff" stroke="#F97316" stroke-width="4"/>
+  </g>
+  <text x="80" y="576" font-family="Segoe UI, system-ui, sans-serif" font-size="22" fill="#6b7280">English · العربية · Français · Español</text>
+</svg>

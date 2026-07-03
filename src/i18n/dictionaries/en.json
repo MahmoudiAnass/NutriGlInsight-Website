@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "home": {
+      "title": "NutriGL Insight — Smarter nutrition tracking, powered by glycemic load",
+      "description": "NutriGL Insight tells you not just how much you ate, but what it does to your blood sugar, energy and cravings. Track food with glycemic load, AI photo logging, and barcode scanning."
+    },
+    "about": {
+      "title": "About — NutriGL Insight",
+      "description": "The story behind NutriGL Insight and OUSHEN: an independent mission to make nutrition data-driven, understandable, and private."
+    },
+    "privacy": {
+      "title": "Privacy Policy — NutriGL Insight",
+      "description": "How NutriGL Insight collects, uses, and protects your data, and how to exercise your privacy rights."
+    },
+    "deleteData": {
+      "title": "Delete My Data — NutriGL Insight",
+      "description": "Request permanent deletion of your NutriGL Insight account and data."
+    },
+    "contact": {
+      "title": "Contact — NutriGL Insight",
+      "description": "Get in touch with the NutriGL Insight team."
+    }
+  },
+  "nav": {
+    "features": "Features",
+    "about": "About",
+    "privacy": "Privacy",
+    "deleteData": "Delete My Data",
+    "contact": "Contact",
+    "download": "Download",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "common": {
+    "download": "Download the app",
+    "getItOn": "Get it on",
+    "googlePlay": "Google Play",
+    "downloadOn": "Download on the",
+    "appStore": "App Store",
+    "comingSoon": "Coming soon",
+    "learnMore": "Learn more",
+    "toggleTheme": "Toggle light and dark mode",
+    "selectLanguage": "Select language",
+    "placeholder": "Placeholder",
+    "screenshotAlt": "NutriGL Insight app screenshot"
+  },
+  "footer": {
+    "tagline": "Clarity and control over your food — without the obsession.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "features": "Features",
+    "download": "Download",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "deleteData": "Delete My Data",
+    "language": "Language",
+    "rights": "All rights reserved.",
+    "builtBy": "Built by Anass Mahmoudi",
+    "email": "contact@nutriglinsight.com"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Nutrition, decoded",
+      "title": "Smarter nutrition tracking, powered by glycemic load",
+      "subtitle": "Most apps count calories. NutriGL Insight shows you how food actually affects your blood sugar, energy, and cravings — so you can eat with clarity, not guesswork.",
+      "trustLine": "Available in English, Arabic, French & Spanish.",
+      "gaugeLabel": "Glycemic load",
+      "gaugeLow": "Low",
+      "gaugeMedium": "Medium",
+      "gaugeHigh": "High",
+      "gaugeCaption": "Live glycemic-load reading for your meal"
+    },
+    "problem": {
+      "eyebrow": "The difference",
+      "title": "Most calorie apps tell you how much. We tell you what it does to your body.",
+      "body": "Two meals can have identical calories and wildly different effects on your energy and blood sugar. Glycemic load captures that difference — so you finally understand why some meals leave you steady and others leave you crashing.",
+      "statOneValue": "1M+",
+      "statOneLabel": "foods with GL data",
+      "statTwoValue": "3",
+      "statTwoLabel": "ways to log in seconds",
+      "statThreeValue": "100%",
+      "statThreeLabel": "private on-device option"
+    },
+    "waysToLog": {
+      "eyebrow": "Effortless logging",
+      "title": "Three ways to log, all in seconds",
+      "subtitle": "Whatever's on your plate, capture it fast and get instant glycemic-load insight.",
+      "items": [
+        {
+          "title": "Plain-language search",
+          "body": "Type “two eggs and toast” the way you'd say it. We handle the rest."
+        },
+        {
+          "title": "AI photo recognition",
+          "body": "Snap your plate. Our AI identifies foods and estimates portions instantly."
+        },
+        {
+          "title": "Barcode scanner",
+          "body": "Scan any packaged product for exact nutrition, macros, and GL."
+        }
+      ]
+    },
+    "foodBreakdown": {
+      "eyebrow": "Total clarity",
+      "title": "See everything that matters for every food",
+      "subtitle": "Calories and full macros — with the glycemic load front and center.",
+      "glLabel": "Glycemic load",
+      "glValue": "Low · 8",
+      "items": [
+        { "label": "Calories", "value": "420 kcal" },
+        { "label": "Protein", "value": "28 g" },
+        { "label": "Carbs", "value": "36 g" },
+        { "label": "Fat", "value": "18 g" },
+        { "label": "Fiber", "value": "9 g" },
+        { "label": "Sugar", "value": "6 g" },
+        { "label": "Potassium", "value": "740 mg" }
+      ]
+    },
+    "insights": {
+      "eyebrow": "Real insight",
+      "title": "Insight that turns data into better decisions",
+      "items": [
+        {
+          "title": "GL weekly trends",
+          "body": "Watch your glycemic load over time and spot the patterns behind your energy dips."
+        },
+        {
+          "title": "Smart Swaps",
+          "body": "Get lower-GL alternatives for the foods you already love — no willpower required."
+        },
+        {
+          "title": "Macro goals",
+          "body": "Set protein, carb, and fat targets that fit your body and your goals."
+        }
+      ]
+    },
+    "motivation": {
+      "eyebrow": "Stay in the habit",
+      "title": "Motivation that actually sticks",
+      "subtitle": "Small wins, every day — without the pressure.",
+      "items": [
+        { "title": "Streaks", "body": "Keep your logging streak alive and build momentum." },
+        { "title": "Badges", "body": "Earn milestones as your habits and health improve." },
+        { "title": "Reminders", "body": "Gentle nudges at the moments that matter." },
+        { "title": "Social hub", "body": "Share progress and cheer on friends on the same journey." }
+      ]
+    },
+    "sync": {
+      "eyebrow": "Yours, everywhere",
+      "title": "Sync across devices — or stay fully private",
+      "body": "Sign in with Google to keep your meals, recipes, and goals in sync across every device. Prefer to keep it to yourself? Track privately on-device and share nothing.",
+      "pointOne": "Optional Google sign-in for cross-device sync",
+      "pointTwo": "Private, on-device tracking whenever you want it",
+      "pointThree": "Your data is never sold — ever"
+    },
+    "whoFor": {
+      "eyebrow": "Who it's for",
+      "title": "Built for anyone who wants steadier energy",
+      "items": [
+        { "title": "Pre-diabetes management", "body": "Understand and reduce your glycemic load with guidance you can act on." },
+        { "title": "Steady all-day energy", "body": "Ditch the afternoon crashes by learning which meals keep you level." },
+        { "title": "Lean muscle", "body": "Hit precise macro targets while keeping blood sugar in check." },
+        { "title": "Simple curiosity", "body": "Finally see what your food is really doing beneath the surface." }
+      ]
+    },
+    "finalCta": {
+      "title": "Eat with clarity. Start today.",
+      "subtitle": "Download NutriGL Insight and see your food in a whole new light.",
+      "trustLine": "Free to download · Available in 4 languages"
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Nutrition, made data-driven and understandable",
+    "intro": "NutriGL Insight is built by OUSHEN — the independent studio of developer Anass Mahmoudi — with a single conviction: people deserve to understand their food, not just count it.",
+    "storyTitle": "The story",
+    "story": [
+      "NutriGL Insight started with a simple frustration. Calorie counters are everywhere, yet they answer the wrong question. Knowing a meal is 500 calories tells you nothing about how it will move your blood sugar, your energy, or your cravings an hour later.",
+      "Glycemic load does. It's a well-researched measure of how a food actually affects your blood sugar, accounting for both the quality and quantity of carbohydrates. So we built an app that puts it front and center — paired with fast logging, honest data, and insight anyone can act on.",
+      "As an independent developer, Anass ships thoughtfully and listens closely. Every release is shaped by real user feedback, and the roadmap is driven by what genuinely helps people eat better."
+    ],
+    "valuesTitle": "What we value",
+    "values": [
+      { "title": "Precision", "body": "Accurate nutrition and glycemic-load data you can trust to make real decisions." },
+      { "title": "Health", "body": "Tools that support steady energy and long-term wellbeing, not crash diets." },
+      { "title": "Privacy", "body": "Your data is yours. Track on-device if you like, and we never sell your information." },
+      { "title": "Continuous improvement", "body": "We ship often and evolve the app around genuine user feedback." }
+    ],
+    "contactTitle": "Get in touch",
+    "contactBody": "Questions, feedback, or partnership ideas? We'd love to hear from you.",
+    "contactCta": "Email us"
+  },
+  "privacy": {
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: July 3, 2026",
+    "intro": "This Privacy Policy explains what data NutriGL Insight (“the app”, “we”, “us”) collects, how we use it, and the rights you have. NutriGL Insight is published by OUSHEN (developer: Anass Mahmoudi).",
+    "legalNote": "This is a template and should be reviewed by a qualified legal professional before publishing. It is provided for informational purposes and does not constitute legal advice.",
+    "tocTitle": "On this page",
+    "sections": [
+      {
+        "id": "data-we-collect",
+        "title": "1. Data we collect",
+        "paragraphs": [
+          "Account information: If you choose to sign in with Google, we receive your name, email address, and profile identifier to create and secure your account. Google sign-in is optional — you can use the app privately on-device without an account.",
+          "Food and health logs: The meals, recipes, portions, goals, streaks, and related nutrition data you enter. If you enable cloud sync, this is stored on our servers associated with your account.",
+          "Device and technical data: A device identifier, app version, device model, operating system, and language settings, used to operate and secure the service.",
+          "Usage and analytics data: Aggregated, privacy-respecting information about how features are used, to improve the app.",
+          "Camera and photos: When you use AI photo recognition, the app accesses your camera or a photo you select. The image is processed to identify foods and estimate nutrition. See section 3 for how photos are handled and retained."
+        ]
+      },
+      {
+        "id": "how-we-use-data",
+        "title": "2. How we use your data",
+        "paragraphs": [
+          "To provide core features: logging meals, calculating calories, macros, and glycemic load, and generating trends and insights.",
+          "To sync your data across your devices when you are signed in.",
+          "To maintain security, prevent abuse, diagnose crashes, and improve reliability and performance.",
+          "Legal basis (where applicable, e.g. EEA/UK): performance of our contract with you, your consent (e.g. for optional features and analytics), and our legitimate interests in operating and improving the service."
+        ]
+      },
+      {
+        "id": "ai-processing",
+        "title": "3. AI processing of food descriptions and photos",
+        "paragraphs": [
+          "To recognize foods and estimate nutrition, the app sends your food descriptions and, when you use photo logging, your food images to an AI provider (Google's Gemini) for analysis.",
+          "These inputs are used to return nutrition results to you. We do not use your photos to identify you, and we do not sell them. Retention by the AI provider is governed by that provider's terms; we configure the integration to minimize retention where possible.",
+          "You can avoid AI photo processing by logging with plain-language search or the barcode scanner instead."
+        ]
+      },
+      {
+        "id": "third-parties",
+        "title": "4. Third-party services",
+        "paragraphs": [
+          "We rely on a limited set of trusted providers to run the app: Google Sign-In (authentication), cloud hosting and database (for sync and storage), an AI provider (Google Gemini, for food recognition), analytics, and crash reporting.",
+          "Each provider only receives the data necessary to perform its function, and is bound by its own privacy and security commitments. We do not sell your personal data to anyone."
+        ]
+      },
+      {
+        "id": "storage-security",
+        "title": "5. Data storage, retention, and security",
+        "paragraphs": [
+          "If you use cloud sync, your data is stored on secured cloud infrastructure and protected with encryption in transit and at rest, along with access controls.",
+          "We retain your data for as long as your account is active or as needed to provide the service. When you request deletion, we remove your synced data as described in section 6.",
+          "No method of transmission or storage is perfectly secure, but we work to protect your information using industry-standard safeguards."
+        ]
+      },
+      {
+        "id": "your-rights",
+        "title": "6. Your rights and choices",
+        "paragraphs": [
+          "You can access and correct much of your data directly in the app. Depending on your location, you may have rights to access, correct, export, or delete your personal data, and to object to or restrict certain processing.",
+          "Deletion: You can permanently delete your account and synced data at any time using our self-serve Delete My Data page, or by emailing contact@nutriglinsight.com with the subject “Data Deletion Request”.",
+          "To exercise any right, contact us at contact@nutriglinsight.com."
+        ]
+      },
+      {
+        "id": "children",
+        "title": "7. Children's privacy",
+        "paragraphs": [
+          "NutriGL Insight is not directed to children under the age required by your local law (generally 13, or 16 in parts of the EEA). We do not knowingly collect personal data from children. If you believe a child has provided us data, contact us and we will delete it."
+        ]
+      },
+      {
+        "id": "transfers",
+        "title": "8. International data transfers",
+        "paragraphs": [
+          "Your data may be processed in countries other than your own, including where our providers operate. Where required, we use appropriate safeguards (such as standard contractual clauses) to protect your data during these transfers."
+        ]
+      },
+      {
+        "id": "cookies",
+        "title": "9. Cookies and similar technologies",
+        "paragraphs": [
+          "Our website uses only essential storage needed to function and, where enabled, minimal privacy-respecting analytics. If we use non-essential cookies, we will ask for consent via a banner. The mobile app does not use advertising cookies."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "10. Changes to this policy",
+        "paragraphs": [
+          "We may update this policy from time to time. We will revise the “last updated” date above and, for material changes, provide a more prominent notice."
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "11. Contact us",
+        "paragraphs": [
+          "For any privacy questions or requests, contact us at contact@nutriglinsight.com. Publisher: OUSHEN. Developer: Anass Mahmoudi."
+        ]
+      }
+    ]
+  },
+  "deleteData": {
+    "eyebrow": "Your data, your choice",
+    "title": "Delete My Data",
+    "intro": "Use this page to request permanent deletion of your NutriGL Insight account and the data associated with it. You don't need to be signed in to submit a request.",
+    "whatTitle": "What gets deleted",
+    "whatItems": [
+      "Your synced meals, recipes, and food logs",
+      "Your goals, macro targets, and preferences",
+      "Your streaks, badges, and progress history",
+      "Your account and profile information"
+    ],
+    "warningTitle": "This is permanent",
+    "warningBody": "Deletion is irreversible. Once processed, your data cannot be recovered. Requests are typically completed within 30 days.",
+    "form": {
+      "title": "Request deletion",
+      "nameLabel": "Full name",
+      "nameOptional": "optional",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Account email",
+      "emailRequired": "required",
+      "emailHelp": "The email you used to sign in with Google.",
+      "emailPlaceholder": "you@example.com",
+      "supportIdLabel": "Support ID or Device ID",
+      "supportIdOptional": "recommended",
+      "supportIdHelp": "Find this in the app under Settings → About (Support ID). It's what identifies your record.",
+      "supportIdPlaceholder": "e.g. NGL-1A2B-3C4D",
+      "reasonLabel": "Reason for deletion",
+      "reasonOptional": "optional",
+      "reasonPlaceholder": "Tell us why you're leaving (optional)",
+      "reasonOptions": [
+        "Select a reason",
+        "I no longer use the app",
+        "Privacy concerns",
+        "I found a different app",
+        "Technical problems",
+        "Other"
+      ],
+      "confirmLabel": "I understand this permanently deletes my data and cannot be undone.",
+      "submit": "Submit deletion request",
+      "submitting": "Submitting…",
+      "requiredError": "This field is required.",
+      "emailError": "Please enter a valid email address.",
+      "confirmError": "You must confirm before submitting.",
+      "genericError": "Something went wrong. Please try again, or email us directly.",
+      "successTitle": "Request received",
+      "successBody": "We've received your deletion request and will confirm to your email within 30 days. If you don't hear back, email us at contact@nutriglinsight.com.",
+      "successAgain": "Submit another request"
+    },
+    "altTitle": "Prefer email?",
+    "altBody": "You can also email us directly at contact@nutriglinsight.com with the subject “Data Deletion Request”. Include your account email and Support ID so we can find your record."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "We'd love to hear from you",
+    "intro": "Questions, feedback, bug reports, or partnership ideas — reach out any time.",
+    "emailTitle": "Email",
+    "emailValue": "contact@nutriglinsight.com",
+    "websiteTitle": "Website",
+    "websiteValue": "nutriglinsight.com",
+    "responseTitle": "Response time",
+    "responseValue": "We usually reply within 2–3 business days.",
+    "form": {
+      "title": "Send a message",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "How can we help?",
+      "submit": "Send message",
+      "note": "This form opens your email app with the details filled in."
+    }
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "home": {
+      "title": "NutriGL Insight — Un suivi nutritionnel plus intelligent, guidé par la charge glycémique",
+      "description": "NutriGL Insight vous dit non seulement combien vous avez mangé, mais l'effet sur votre glycémie, votre énergie et vos envies. Suivez vos aliments avec la charge glycémique, la reconnaissance photo par IA et le scan de codes-barres."
+    },
+    "about": {
+      "title": "À propos — NutriGL Insight",
+      "description": "L'histoire derrière NutriGL Insight et OUSHEN : une mission indépendante pour rendre la nutrition compréhensible, fondée sur les données et respectueuse de la vie privée."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité — NutriGL Insight",
+      "description": "Comment NutriGL Insight collecte, utilise et protège vos données, et comment exercer vos droits."
+    },
+    "deleteData": {
+      "title": "Supprimer mes données — NutriGL Insight",
+      "description": "Demandez la suppression définitive de votre compte et de vos données NutriGL Insight."
+    },
+    "contact": {
+      "title": "Contact — NutriGL Insight",
+      "description": "Contactez l'équipe NutriGL Insight."
+    }
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "about": "À propos",
+    "privacy": "Confidentialité",
+    "deleteData": "Supprimer mes données",
+    "contact": "Contact",
+    "download": "Télécharger",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "common": {
+    "download": "Télécharger l'application",
+    "getItOn": "Disponible sur",
+    "googlePlay": "Google Play",
+    "downloadOn": "Télécharger dans l'",
+    "appStore": "App Store",
+    "comingSoon": "Bientôt disponible",
+    "learnMore": "En savoir plus",
+    "toggleTheme": "Basculer entre le mode clair et sombre",
+    "selectLanguage": "Choisir la langue",
+    "placeholder": "Exemple",
+    "screenshotAlt": "Capture d'écran de l'application NutriGL Insight"
+  },
+  "footer": {
+    "tagline": "De la clarté et du contrôle sur votre alimentation, sans l'obsession.",
+    "product": "Produit",
+    "company": "Entreprise",
+    "legal": "Mentions légales",
+    "features": "Fonctionnalités",
+    "download": "Télécharger",
+    "about": "À propos",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "deleteData": "Supprimer mes données",
+    "language": "Langue",
+    "rights": "Tous droits réservés.",
+    "builtBy": "Conçu par Anass Mahmoudi",
+    "email": "contact@nutriglinsight.com"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "La nutrition, décodée",
+      "title": "Un suivi nutritionnel plus intelligent, guidé par la charge glycémique",
+      "subtitle": "La plupart des applications comptent les calories. NutriGL Insight vous montre l'effet réel des aliments sur votre glycémie, votre énergie et vos envies — pour manger avec clarté, sans deviner.",
+      "trustLine": "Disponible en anglais, arabe, français et espagnol.",
+      "gaugeLabel": "Charge glycémique",
+      "gaugeLow": "Faible",
+      "gaugeMedium": "Moyenne",
+      "gaugeHigh": "Élevée",
+      "gaugeCaption": "Charge glycémique en temps réel pour votre repas"
+    },
+    "problem": {
+      "eyebrow": "La différence",
+      "title": "La plupart des applications vous disent combien. Nous vous disons ce que ça fait à votre corps.",
+      "body": "Deux repas identiques en calories peuvent avoir des effets radicalement différents sur votre énergie et votre glycémie. La charge glycémique capture cette différence — pour enfin comprendre pourquoi certains repas vous stabilisent et d'autres vous épuisent.",
+      "statOneValue": "1M+",
+      "statOneLabel": "aliments avec données de CG",
+      "statTwoValue": "3",
+      "statTwoLabel": "façons de saisir en quelques secondes",
+      "statThreeValue": "100%",
+      "statThreeLabel": "option privée sur l'appareil"
+    },
+    "waysToLog": {
+      "eyebrow": "Saisie sans effort",
+      "title": "Trois façons de saisir, en quelques secondes",
+      "subtitle": "Quel que soit votre plat, capturez-le vite et obtenez une charge glycémique instantanée.",
+      "items": [
+        {
+          "title": "Recherche en langage courant",
+          "body": "Tapez « deux œufs et une tartine » comme vous le diriez. On s'occupe du reste."
+        },
+        {
+          "title": "Reconnaissance photo par IA",
+          "body": "Photographiez votre assiette. Notre IA identifie les aliments et estime les portions instantanément."
+        },
+        {
+          "title": "Scanner de codes-barres",
+          "body": "Scannez tout produit emballé pour une nutrition exacte, les macros et la CG."
+        }
+      ]
+    },
+    "foodBreakdown": {
+      "eyebrow": "Clarté totale",
+      "title": "Voyez tout ce qui compte pour chaque aliment",
+      "subtitle": "Calories et macros complètes — avec la charge glycémique bien en évidence.",
+      "glLabel": "Charge glycémique",
+      "glValue": "Faible · 8",
+      "items": [
+        { "label": "Calories", "value": "420 kcal" },
+        { "label": "Protéines", "value": "28 g" },
+        { "label": "Glucides", "value": "36 g" },
+        { "label": "Lipides", "value": "18 g" },
+        { "label": "Fibres", "value": "9 g" },
+        { "label": "Sucre", "value": "6 g" },
+        { "label": "Potassium", "value": "740 mg" }
+      ]
+    },
+    "insights": {
+      "eyebrow": "De vraies analyses",
+      "title": "Des analyses qui transforment les données en meilleures décisions",
+      "items": [
+        {
+          "title": "Tendances hebdomadaires de CG",
+          "body": "Suivez votre charge glycémique dans le temps et repérez les schémas derrière vos baisses d'énergie."
+        },
+        {
+          "title": "Alternatives intelligentes",
+          "body": "Obtenez des alternatives à plus faible CG pour les aliments que vous aimez déjà — sans effort de volonté."
+        },
+        {
+          "title": "Objectifs de macros",
+          "body": "Fixez des objectifs de protéines, glucides et lipides adaptés à votre corps et à vos buts."
+        }
+      ]
+    },
+    "motivation": {
+      "eyebrow": "Gardez l'habitude",
+      "title": "Une motivation qui tient vraiment",
+      "subtitle": "De petites victoires, chaque jour — sans pression.",
+      "items": [
+        { "title": "Séries", "body": "Maintenez votre série de saisies et créez de l'élan." },
+        { "title": "Badges", "body": "Décrochez des jalons à mesure que vos habitudes s'améliorent." },
+        { "title": "Rappels", "body": "De légers rappels aux moments qui comptent." },
+        { "title": "Espace social", "body": "Partagez vos progrès et encouragez vos amis sur le même chemin." }
+      ]
+    },
+    "sync": {
+      "eyebrow": "À vous, partout",
+      "title": "Synchronisez vos appareils — ou restez totalement privé",
+      "body": "Connectez-vous avec Google pour synchroniser vos repas, recettes et objectifs sur tous vos appareils. Vous préférez tout garder pour vous ? Suivez en privé sur l'appareil, sans rien partager.",
+      "pointOne": "Connexion Google optionnelle pour la synchronisation multi-appareils",
+      "pointTwo": "Suivi privé sur l'appareil quand vous le souhaitez",
+      "pointThree": "Vos données ne sont jamais vendues — jamais"
+    },
+    "whoFor": {
+      "eyebrow": "Pour qui",
+      "title": "Conçu pour tous ceux qui veulent une énergie plus stable",
+      "items": [
+        { "title": "Gestion du prédiabète", "body": "Comprenez et réduisez votre charge glycémique avec des conseils applicables." },
+        { "title": "Énergie stable toute la journée", "body": "Finies les baisses de l'après-midi en apprenant quels repas vous stabilisent." },
+        { "title": "Muscle sec", "body": "Atteignez des objectifs de macros précis tout en maîtrisant votre glycémie." },
+        { "title": "Simple curiosité", "body": "Voyez enfin ce que vos aliments font vraiment sous la surface." }
+      ]
+    },
+    "finalCta": {
+      "title": "Mangez avec clarté. Commencez aujourd'hui.",
+      "subtitle": "Téléchargez NutriGL Insight et voyez votre alimentation sous un jour nouveau.",
+      "trustLine": "Téléchargement gratuit · Disponible en 4 langues"
+    }
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "La nutrition, rendue compréhensible et fondée sur les données",
+    "intro": "NutriGL Insight est développé par OUSHEN — le studio indépendant du développeur Anass Mahmoudi — avec une conviction : chacun mérite de comprendre son alimentation, pas seulement de la compter.",
+    "storyTitle": "L'histoire",
+    "story": [
+      "NutriGL Insight est né d'une frustration simple. Les compteurs de calories sont partout, mais ils répondent à la mauvaise question. Savoir qu'un repas fait 500 calories ne dit rien de son effet sur votre glycémie, votre énergie ou vos envies une heure plus tard.",
+      "La charge glycémique, elle, le fait. C'est une mesure bien étudiée de l'effet réel d'un aliment sur la glycémie, tenant compte de la qualité et de la quantité de glucides. Nous avons donc conçu une application qui la met en avant — avec une saisie rapide, des données honnêtes et des analyses concrètes.",
+      "En tant que développeur indépendant, Anass avance avec soin et écoute attentivement. Chaque version est façonnée par les retours réels, et la feuille de route est guidée par ce qui aide vraiment les gens à mieux manger."
+    ],
+    "valuesTitle": "Nos valeurs",
+    "values": [
+      { "title": "Précision", "body": "Des données nutritionnelles et de charge glycémique fiables pour de vraies décisions." },
+      { "title": "Santé", "body": "Des outils qui favorisent une énergie stable et un bien-être durable, pas les régimes chocs." },
+      { "title": "Confidentialité", "body": "Vos données vous appartiennent. Suivez sur l'appareil si vous le souhaitez ; nous ne les vendons jamais." },
+      { "title": "Amélioration continue", "body": "Nous publions souvent et faisons évoluer l'application selon les retours réels." }
+    ],
+    "contactTitle": "Nous contacter",
+    "contactBody": "Des questions, des retours ou des idées de partenariat ? Écrivez-nous.",
+    "contactCta": "Écrivez-nous"
+  },
+  "privacy": {
+    "eyebrow": "Mentions légales",
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : 3 juillet 2026",
+    "intro": "Cette politique de confidentialité explique quelles données NutriGL Insight (« l'application », « nous ») collecte, comment elles sont utilisées et quels sont vos droits. NutriGL Insight est publié par OUSHEN (développeur : Anass Mahmoudi).",
+    "legalNote": "Ceci est un modèle qui doit être révisé par un professionnel du droit qualifié avant publication. Fourni à titre informatif, il ne constitue pas un avis juridique.",
+    "tocTitle": "Sur cette page",
+    "sections": [
+      {
+        "id": "data-we-collect",
+        "title": "1. Données que nous collectons",
+        "paragraphs": [
+          "Informations de compte : si vous vous connectez avec Google, nous recevons votre nom, votre adresse e-mail et votre identifiant de profil pour créer et sécuriser votre compte. La connexion Google est optionnelle — vous pouvez utiliser l'application en privé sur l'appareil, sans compte.",
+          "Journaux alimentaires et de santé : les repas, recettes, portions, objectifs, séries et données nutritionnelles que vous saisissez. Si vous activez la synchronisation cloud, ces données sont stockées sur nos serveurs, associées à votre compte.",
+          "Données techniques et de l'appareil : un identifiant d'appareil, la version de l'application, le modèle, le système d'exploitation et la langue, utilisés pour faire fonctionner et sécuriser le service.",
+          "Données d'usage et d'analyse : des informations agrégées et respectueuses de la vie privée sur l'utilisation des fonctionnalités, pour améliorer l'application.",
+          "Appareil photo et photos : lorsque vous utilisez la reconnaissance photo par IA, l'application accède à votre appareil photo ou à une photo choisie. L'image est traitée pour identifier les aliments et estimer la nutrition. Voir la section 3 pour la gestion et la conservation des photos."
+        ]
+      },
+      {
+        "id": "how-we-use-data",
+        "title": "2. Comment nous utilisons vos données",
+        "paragraphs": [
+          "Pour fournir les fonctionnalités principales : saisie des repas, calcul des calories, des macros et de la charge glycémique, génération des tendances et analyses.",
+          "Pour synchroniser vos données entre vos appareils lorsque vous êtes connecté.",
+          "Pour assurer la sécurité, prévenir les abus, diagnostiquer les plantages et améliorer la fiabilité et les performances.",
+          "Base légale (le cas échéant, ex. EEE/Royaume-Uni) : l'exécution de notre contrat avec vous, votre consentement (ex. fonctionnalités optionnelles et analyse) et nos intérêts légitimes à exploiter et améliorer le service."
+        ]
+      },
+      {
+        "id": "ai-processing",
+        "title": "3. Traitement par IA des descriptions et photos d'aliments",
+        "paragraphs": [
+          "Pour reconnaître les aliments et estimer la nutrition, l'application envoie vos descriptions d'aliments et, lors de la saisie photo, vos images à un fournisseur d'IA (Gemini de Google) pour analyse.",
+          "Ces éléments servent à vous renvoyer des résultats nutritionnels. Nous n'utilisons pas vos photos pour vous identifier et nous ne les vendons pas. Leur conservation par le fournisseur d'IA est régie par ses conditions ; nous configurons l'intégration pour limiter la conservation autant que possible.",
+          "Vous pouvez éviter le traitement photo par IA en utilisant la recherche en langage courant ou le scanner de codes-barres."
+        ]
+      },
+      {
+        "id": "third-parties",
+        "title": "4. Services tiers",
+        "paragraphs": [
+          "Nous nous appuyons sur un nombre limité de prestataires de confiance : Google Sign-In (authentification), hébergement cloud et base de données (synchronisation et stockage), un fournisseur d'IA (Google Gemini, reconnaissance des aliments), l'analyse d'usage et le rapport de plantages.",
+          "Chaque prestataire ne reçoit que les données nécessaires à sa fonction et est tenu par ses propres engagements de confidentialité et de sécurité. Nous ne vendons vos données personnelles à personne."
+        ]
+      },
+      {
+        "id": "storage-security",
+        "title": "5. Stockage, conservation et sécurité des données",
+        "paragraphs": [
+          "Si vous utilisez la synchronisation cloud, vos données sont stockées sur une infrastructure cloud sécurisée et protégées par un chiffrement en transit et au repos, ainsi que des contrôles d'accès.",
+          "Nous conservons vos données tant que votre compte est actif ou selon les besoins du service. Lorsque vous demandez la suppression, nous supprimons vos données synchronisées comme décrit à la section 6.",
+          "Aucune méthode de transmission ou de stockage n'est parfaitement sûre, mais nous protégeons vos informations avec des mesures conformes aux standards du secteur."
+        ]
+      },
+      {
+        "id": "your-rights",
+        "title": "6. Vos droits et choix",
+        "paragraphs": [
+          "Vous pouvez accéder à une grande partie de vos données et les corriger directement dans l'application. Selon votre localisation, vous pouvez avoir le droit d'accéder à vos données, de les corriger, de les exporter ou de les supprimer, et de vous opposer à certains traitements ou de les limiter.",
+          "Suppression : vous pouvez supprimer définitivement votre compte et vos données synchronisées à tout moment via notre page en libre-service « Supprimer mes données », ou par e-mail à contact@nutriglinsight.com avec l'objet « Data Deletion Request ».",
+          "Pour exercer un droit, contactez-nous à contact@nutriglinsight.com."
+        ]
+      },
+      {
+        "id": "children",
+        "title": "7. Confidentialité des enfants",
+        "paragraphs": [
+          "NutriGL Insight ne s'adresse pas aux enfants en dessous de l'âge requis par votre loi locale (généralement 13 ans, ou 16 dans certaines parties de l'EEE). Nous ne collectons pas sciemment de données d'enfants. Si vous pensez qu'un enfant nous a fourni des données, contactez-nous et nous les supprimerons."
+        ]
+      },
+      {
+        "id": "transfers",
+        "title": "8. Transferts internationaux de données",
+        "paragraphs": [
+          "Vos données peuvent être traitées dans des pays autres que le vôtre, y compris là où opèrent nos prestataires. Lorsque cela est requis, nous utilisons des garanties appropriées (telles que les clauses contractuelles types) pour protéger vos données lors de ces transferts."
+        ]
+      },
+      {
+        "id": "cookies",
+        "title": "9. Cookies et technologies similaires",
+        "paragraphs": [
+          "Notre site web n'utilise que le stockage essentiel à son fonctionnement et, le cas échéant, une analyse minimale et respectueuse de la vie privée. Si nous utilisons des cookies non essentiels, nous demanderons votre consentement via une bannière. L'application mobile n'utilise pas de cookies publicitaires."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "10. Modifications de cette politique",
+        "paragraphs": [
+          "Nous pouvons mettre à jour cette politique de temps à autre. Nous modifierons la date de « dernière mise à jour » ci-dessus et, pour les changements importants, fournirons un avis plus visible."
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "11. Nous contacter",
+        "paragraphs": [
+          "Pour toute question ou demande relative à la confidentialité, contactez-nous à contact@nutriglinsight.com. Éditeur : OUSHEN. Développeur : Anass Mahmoudi."
+        ]
+      }
+    ]
+  },
+  "deleteData": {
+    "eyebrow": "Vos données, votre choix",
+    "title": "Supprimer mes données",
+    "intro": "Utilisez cette page pour demander la suppression définitive de votre compte NutriGL Insight et des données associées. Vous n'avez pas besoin d'être connecté pour envoyer une demande.",
+    "whatTitle": "Ce qui est supprimé",
+    "whatItems": [
+      "Vos repas, recettes et journaux alimentaires synchronisés",
+      "Vos objectifs, cibles de macros et préférences",
+      "Vos séries, badges et historique de progression",
+      "Vos informations de compte et de profil"
+    ],
+    "warningTitle": "C'est définitif",
+    "warningBody": "La suppression est irréversible. Une fois traitées, vos données ne peuvent pas être récupérées. Les demandes sont généralement traitées sous 30 jours.",
+    "form": {
+      "title": "Demander la suppression",
+      "nameLabel": "Nom complet",
+      "nameOptional": "facultatif",
+      "namePlaceholder": "Votre nom",
+      "emailLabel": "E-mail du compte",
+      "emailRequired": "obligatoire",
+      "emailHelp": "L'e-mail utilisé pour vous connecter avec Google.",
+      "emailPlaceholder": "vous@exemple.com",
+      "supportIdLabel": "ID de support ou ID d'appareil",
+      "supportIdOptional": "recommandé",
+      "supportIdHelp": "Trouvez-le dans l'application sous Paramètres → À propos (Support ID). C'est ce qui identifie votre enregistrement.",
+      "supportIdPlaceholder": "ex. NGL-1A2B-3C4D",
+      "reasonLabel": "Motif de la suppression",
+      "reasonOptional": "facultatif",
+      "reasonPlaceholder": "Dites-nous pourquoi vous partez (facultatif)",
+      "reasonOptions": [
+        "Choisir un motif",
+        "Je n'utilise plus l'application",
+        "Préoccupations de confidentialité",
+        "J'ai trouvé une autre application",
+        "Problèmes techniques",
+        "Autre"
+      ],
+      "confirmLabel": "Je comprends que cela supprime définitivement mes données et ne peut être annulé.",
+      "submit": "Envoyer la demande de suppression",
+      "submitting": "Envoi…",
+      "requiredError": "Ce champ est obligatoire.",
+      "emailError": "Veuillez saisir une adresse e-mail valide.",
+      "confirmError": "Vous devez confirmer avant d'envoyer.",
+      "genericError": "Une erreur est survenue. Réessayez ou écrivez-nous directement.",
+      "successTitle": "Demande reçue",
+      "successBody": "Nous avons reçu votre demande de suppression et vous confirmerons par e-mail sous 30 jours. Sans nouvelle de notre part, écrivez-nous à contact@nutriglinsight.com.",
+      "successAgain": "Envoyer une autre demande"
+    },
+    "altTitle": "Vous préférez l'e-mail ?",
+    "altBody": "Vous pouvez aussi nous écrire directement à contact@nutriglinsight.com avec l'objet « Data Deletion Request ». Indiquez l'e-mail de votre compte et votre Support ID pour retrouver votre enregistrement."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Nous serions ravis de vous lire",
+    "intro": "Questions, retours, signalements de bugs ou idées de partenariat — écrivez-nous à tout moment.",
+    "emailTitle": "E-mail",
+    "emailValue": "contact@nutriglinsight.com",
+    "websiteTitle": "Site web",
+    "websiteValue": "nutriglinsight.com",
+    "responseTitle": "Délai de réponse",
+    "responseValue": "Nous répondons généralement sous 2 à 3 jours ouvrés.",
+    "form": {
+      "title": "Envoyer un message",
+      "nameLabel": "Nom",
+      "namePlaceholder": "Votre nom",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "vous@exemple.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Comment pouvons-nous aider ?",
+      "submit": "Envoyer le message",
+      "note": "Ce formulaire ouvre votre application e-mail avec les informations pré-remplies."
+    }
+  }
+}

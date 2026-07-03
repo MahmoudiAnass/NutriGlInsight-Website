@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 247 247 248; /* #F7F7F8 */
+    --foreground: 26 26 46; /* #1A1A2E */
+    --card: 255 255 255;
+    --muted: 58 58 74; /* #3A3A4A */
+    --border: 240 240 240; /* #F0F0F0 */
+  }
+
+  .dark {
+    --background: 31 31 31; /* #1F1F1F neutral grey, not green-black */
+    --foreground: 237 237 237;
+    --card: 36 36 36; /* #242424 */
+    --muted: 161 161 170;
+    --border: 42 42 42; /* #2A2A2A */
+  }
+
+  * {
+    border-color: rgb(var(--border));
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: rgb(var(--background));
+    color: rgb(var(--foreground));
+    font-feature-settings: "cv11", "ss01";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Respect reduced motion globally */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Visible, consistent focus ring for keyboard users */
+  :focus-visible {
+    outline: 2px solid #F97316;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* Tabular figures for data/stats */
+  .tabnum {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply container mx-auto;
+  }
+
+  .surface {
+    background-color: rgb(var(--card));
+  }
+
+  .text-muted {
+    color: rgb(var(--muted));
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-[16px] px-6 py-3 text-sm font-semibold transition-all duration-200 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-primary {
+    @apply btn bg-accent text-white shadow-soft hover:bg-accent-deep hover:-translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply btn border border-brand-400/30 bg-brand-500/[0.08] text-brand-600 hover:bg-brand-500/[0.14] dark:text-brand-300;
+  }
+
+  .card {
+    @apply surface rounded-[20px] border p-6 shadow-soft;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand-400/30 bg-brand-50 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-brand-600 dark:bg-brand-900/30 dark:text-brand-300;
+  }
+
+  .link-underline {
+    @apply underline decoration-brand-400/50 underline-offset-4 transition-colors hover:decoration-brand-500;
+  }
+}
+
+/* RTL: keep numeric data left-to-right where needed */
+[dir="rtl"] .keep-ltr {
+  direction: ltr;
+  unicode-bidi: embed;
+}
